@@ -1,0 +1,20 @@
+{
+    "name": "wp-hibou/readme",
+    "description": "WordPress Readme.txt Parser Modernized",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Goller",
+            "email": "alpipego@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPHibou\\Readme\\": "src"
+        }
+    }
+}
